@@ -10,6 +10,9 @@
  * Requires OPENAI_API_KEY or ANTHROPIC_API_KEY for the Reason phase.
  */
 
+import { loadEnv } from "./load-env.js";
+loadEnv();
+
 import { spawn } from "node:child_process";
 import { randomBytes } from "node:crypto";
 import { readFile, writeFile, mkdir } from "node:fs/promises";

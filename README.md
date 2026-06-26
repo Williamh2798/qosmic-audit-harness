@@ -8,7 +8,8 @@ Clone, install, run. No cookies, no API keys, no manual setup beyond Node.js.
 npm install
 
 # ONE COMMAND — crawl + report + eval (reviewers start here)
-export OPENAI_API_KEY=sk-...   # or ANTHROPIC_API_KEY
+export ANTHROPIC_API_KEY=sk-ant-...   # or OPENAI_API_KEY
+# optional: ANTHROPIC_MODEL=claude-sonnet-4-6
 npm run report -- https://zenrojas.com
 npm run report -- https://gingerpeople.com
 
