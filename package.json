@@ -1,0 +1,25 @@
+{
+  "name": "qosmic-audit-harness",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "start": "tsx scripts/help.ts",
+    "setup": "npm install && playwright install chromium",
+    "crawl": "tsx scripts/crawl.ts",
+    "audit": "tsx scripts/crawl.ts",
+    "report": "tsx scripts/full-audit.ts",
+    "eval": "tsx eval/run.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

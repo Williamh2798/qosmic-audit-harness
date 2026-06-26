@@ -1,0 +1,112 @@
+{
+  "store_url": "https://gingerpeople.com",
+  "audit_id": "aud_5b5587c3e37c2cdf",
+  "crawled_at": "2026-06-26T03:28:14.742Z",
+  "purchase_model": "unknown",
+  "surfaces": [
+    {
+      "url": "https://gingerpeople.com",
+      "type": "homepage",
+      "status": 403,
+      "screenshot": "audits/aud_5b5587c3e37c2cdf/screenshots/b2f64d78-home.png",
+      "mobile_screenshot": "audits/aud_5b5587c3e37c2cdf/screenshots/b2f64d78-home-mobile.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191ed3c9c76d35 • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/cart",
+      "type": "cart",
+      "status": 403,
+      "screenshot": "audits/aud_5b5587c3e37c2cdf/screenshots/19fd1532-cart.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191ede39036d35 • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    }
+  ],
+  "category_keywords": [
+    "gingerpeople",
+    "ginger"
+  ],
+  "technical_checks": [
+    {
+      "check": "SSL Certificate",
+      "status": "Pass",
+      "detail": "HTTPS storefront loaded successfully."
+    },
+    {
+      "check": "HTTPS Redirect",
+      "status": "Warn",
+      "detail": "HTTP redirect was not verified in this pass."
+    },
+    {
+      "check": "Sitemap",
+      "status": "Warn",
+      "detail": "sitemap.xml not found or returned an error."
+    },
+    {
+      "check": "Robots.txt",
+      "status": "Pass",
+      "detail": "robots.txt responded successfully."
+    },
+    {
+      "check": "Critical Pages Loading",
+      "status": "Fail",
+      "detail": "Issues on: https://gingerpeople.com, https://gingerpeople.com/cart."
+    },
+    {
+      "check": "Meta Tags & Social Previews",
+      "status": "Warn",
+      "detail": "Meta descriptions were sparse across captured pages."
+    },
+    {
+      "check": "Structured Data",
+      "status": "Warn",
+      "detail": "No JSON-LD detected on captured pages."
+    },
+    {
+      "check": "Favicon",
+      "status": "Warn",
+      "detail": "Favicon not detected from captured evidence."
+    },
+    {
+      "check": "Mobile-Friendly",
+      "status": "Pass",
+      "detail": "Mobile viewport screenshot captured for homepage."
+    },
+    {
+      "check": "Page Speed Mobile",
+      "status": "Warn",
+      "detail": "No Lighthouse/mobile speed run performed."
+    },
+    {
+      "check": "Page Speed Desktop",
+      "status": "Warn",
+      "detail": "No Lighthouse speed run performed."
+    },
+    {
+      "check": "Broken Links",
+      "status": "Fail",
+      "detail": "Broken: https://gingerpeople.com, https://gingerpeople.com/cart."
+    },
+    {
+      "check": "Image Optimization",
+      "status": "Warn",
+      "detail": "Large hero/product images observed; byte-level audit not run."
+    },
+    {
+      "check": "Cookie/Privacy",
+      "status": "Warn",
+      "detail": "Privacy policy link not confirmed."
+    },
+    {
+      "check": "Checkout Reachable",
+      "status": "Fail",
+      "detail": "Cart/checkout path was not reachable from crawl."
+    }
+  ]
+}

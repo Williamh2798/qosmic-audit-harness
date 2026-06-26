@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AuditManifest",
+  "type": "object",
+  "required": ["store_url", "audit_id", "surfaces", "technical_checks"],
+  "properties": {
+    "store_url": { "type": "string", "format": "uri" },
+    "audit_id": { "type": "string", "pattern": "^aud_" },
+    "crawled_at": { "type": "string", "format": "date-time" },
+    "purchase_model": {
+      "type": "string",
+      "enum": ["dtc", "retailer_routed", "hybrid", "unknown"]
+    },
+    "surfaces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url", "type", "status"],
+        "properties": {
+          "url": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [
+              "homepage",
+              "collection",
+              "pdp",
+              "cart",
+              "content",
+              "where-to-buy",
+              "other"
+            ]
+          },
+          "screenshot": { "type": "string" },
+          "mobile_screenshot": { "type": "string" },
+          "status": { "type": "integer" },
+          "title": { "type": "string" },
+          "meta_description": { "type": "string" },
+          "text_excerpt": { "type": "string" },
+          "has_add_to_cart": { "type": "boolean" },
+          "has_price": { "type": "boolean" }
+        }
+      }
+    },
+    "technical_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["check", "status", "detail"],
+        "properties": {
+          "check": { "type": "string" },
+          "status": { "type": "string", "enum": ["Pass", "Warn", "Fail"] },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "category_keywords": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "store_url": "https://gingerpeople.com",
+  "audit_id": "aud_2b892664772f4416",
+  "crawled_at": "2026-06-26T03:26:32.548Z",
+  "purchase_model": "retailer_routed",
+  "surfaces": [
+    {
+      "url": "https://gingerpeople.com",
+      "type": "homepage",
+      "status": 200,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/b2f64d78-home.png",
+      "mobile_screenshot": "audits/aud_2b892664772f4416/screenshots/b2f64d78-home-mobile.png",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was rece",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/products/ginger-soother-turmeric-gingerade",
+      "type": "pdp",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/3ea4d643-products-ginger-soother-turmeric-gingerade.png",
+      "mobile_screenshot": "audits/aud_2b892664772f4416/screenshots/3ea4d643-products-ginger-soother-turmeric-gingerade-mobile.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c33d8d1cd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/products/fiji-ginger-juice",
+      "type": "pdp",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/dead02c8-products-fiji-ginger-juice.png",
+      "mobile_screenshot": "audits/aud_2b892664772f4416/screenshots/dead02c8-products-fiji-ginger-juice-mobile.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c3e5e2bcd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/cart",
+      "type": "cart",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/19fd1532-cart.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c48aa6fcd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/where-to-buy-the-ginger-people-products",
+      "type": "where-to-buy",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/cfaa4301-where-to-buy-the-ginger-people-products.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c504d8acd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/faqs",
+      "type": "content",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/8ffd2904-faqs.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c575c01cd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/contact-us",
+      "type": "content",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/9e7c6d6a-contact-us.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c5e6babcd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    },
+    {
+      "url": "https://gingerpeople.com/the-ginger-people-products",
+      "type": "other",
+      "status": 403,
+      "screenshot": "audits/aud_2b892664772f4416/screenshots/aaa648a3-the-ginger-people-products.png",
+      "title": "Attention Required! | Cloudflare",
+      "meta_description": "",
+      "text_excerpt": "Sorry, you have been blocked You are unable to access gingerpeople.com Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a1191c656a86cd1f • Your IP: Click to reveal • Performance & security by Cloudflare",
+      "has_add_to_cart": false,
+      "has_price": false
+    }
+  ],
+  "category_keywords": [
+    "gingerpeople",
+    "ginger",
+    "food",
+    "wellness"
+  ],
+  "technical_checks": [
+    {
+      "check": "SSL Certificate",
+      "status": "Pass",
+      "detail": "HTTPS storefront loaded successfully."
+    },
+    {
+      "check": "HTTPS Redirect",
+      "status": "Warn",
+      "detail": "HTTP redirect was not verified in this pass."
+    },
+    {
+      "check": "Sitemap",
+      "status": "Warn",
+      "detail": "sitemap.xml not found or returned an error."
+    },
+    {
+      "check": "Robots.txt",
+      "status": "Pass",
+      "detail": "robots.txt responded successfully."
+    },
+    {
+      "check": "Critical Pages Loading",
+      "status": "Fail",
+      "detail": "Issues on: https://gingerpeople.com/products/ginger-soother-turmeric-gingerade, https://gingerpeople.com/products/fiji-ginger-juice, https://gingerpeople.com/cart."
+    },
+    {
+      "check": "Meta Tags & Social Previews",
+      "status": "Warn",
+      "detail": "1/8 pages had title + meta description."
+    },
+    {
+      "check": "Structured Data",
+      "status": "Pass",
+      "detail": "JSON-LD found on 1 page(s)."
+    },
+    {
+      "check": "Favicon",
+      "status": "Pass",
+      "detail": "Favicon link detected on homepage."
+    },
+    {
+      "check": "Mobile-Friendly",
+      "status": "Pass",
+      "detail": "Mobile viewport screenshot captured for homepage."
+    },
+    {
+      "check": "Page Speed Mobile",
+      "status": "Warn",
+      "detail": "No Lighthouse/mobile speed run performed."
+    },
+    {
+      "check": "Page Speed Desktop",
+      "status": "Warn",
+      "detail": "No Lighthouse speed run performed."
+    },
+    {
+      "check": "Broken Links",
+      "status": "Fail",
+      "detail": "Broken: https://gingerpeople.com/products/ginger-soother-turmeric-gingerade, https://gingerpeople.com/products/fiji-ginger-juice, https://gingerpeople.com/cart, https://gingerpeople.com/where-to-buy-the-ginger-people-products, https://gingerpeople.com/faqs, https://gingerpeople.com/contact-us, https://gingerpeople.com/the-ginger-people-products."
+    },
+    {
+      "check": "Image Optimization",
+      "status": "Warn",
+      "detail": "Large hero/product images observed; byte-level audit not run."
+    },
+    {
+      "check": "Cookie/Privacy",
+      "status": "Pass",
+      "detail": "Privacy policy link visible in footer."
+    },
+    {
+      "check": "Checkout Reachable",
+      "status": "Fail",
+      "detail": "Cart/checkout path was not reachable from crawl."
+    }
+  ]
+}

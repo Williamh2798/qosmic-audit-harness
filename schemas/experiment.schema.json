@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Experiment",
+  "type": "object",
+  "required": [
+    "exp_id",
+    "title",
+    "pillar",
+    "affected_surface",
+    "url",
+    "evidence",
+    "hypothesis",
+    "primary_change",
+    "primary_kpi",
+    "decision_rule",
+    "expected_lift",
+    "confidence"
+  ],
+  "properties": {
+    "exp_id": { "type": "string", "pattern": "^exp-[a-f0-9]{12}$" },
+    "title": { "type": "string", "minLength": 5 },
+    "pillar": {
+      "type": "string",
+      "enum": [
+        "Conversion",
+        "AOV",
+        "Retention",
+        "Acquisition",
+        "Performance"
+      ]
+    },
+    "affected_surface": { "type": "string" },
+    "url": { "type": "string" },
+    "evidence": { "type": "string", "minLength": 5 },
+    "hypothesis": { "type": "string", "minLength": 20 },
+    "primary_change": { "type": "string", "minLength": 10 },
+    "primary_kpi": { "type": "string" },
+    "decision_rule": { "type": "string", "minLength": 10 },
+    "expected_lift": { "type": "string" },
+    "confidence": { "type": "integer", "minimum": 0, "maximum": 100 }
+  }
+}
