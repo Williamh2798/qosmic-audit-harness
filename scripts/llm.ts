@@ -45,7 +45,7 @@ async function openaiJson<T>(apiKey: string, system: string, user: string): Prom
 }
 
 async function anthropicJson<T>(apiKey: string, system: string, user: string): Promise<T> {
-  const model = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-20250514";
+  const model = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
