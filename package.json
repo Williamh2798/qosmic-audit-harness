@@ -10,6 +10,7 @@
     "crawl": "tsx scripts/crawl.ts",
     "audit": "tsx scripts/crawl.ts",
     "report": "tsx scripts/full-audit.ts",
+    "key": "tsx scripts/set-key.ts",
     "eval": "tsx eval/run.ts"
   },
   "dependencies": {

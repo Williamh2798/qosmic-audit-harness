@@ -7,14 +7,11 @@ Clone, install, run. No cookies, no API keys, no manual setup beyond Node.js.
 ```bash
 npm install
 
-# ONE COMMAND — crawl + report + eval (reviewers start here)
-export ANTHROPIC_API_KEY=sk-ant-...   # or OPENAI_API_KEY
-# optional: ANTHROPIC_MODEL=claude-sonnet-4-6
-npm run report -- https://zenrojas.com
-npm run report -- https://gingerpeople.com
+# 1. Save your key (one time)
+npm run key -- sk-ant-your-key-here
 
-# Or
-./run.sh https://zenrojas.com
+# 2. Run an audit
+npm run report -- https://gingerpeople.com
 ```
 
 Output: `audits/{audit_id}/manifest.json` + screenshots + `sample_output/{store}_audit.md`
