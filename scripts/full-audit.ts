@@ -10,14 +10,12 @@
  * Requires OPENAI_API_KEY or ANTHROPIC_API_KEY for the Reason phase.
  */
 
-import { loadEnv } from "./load-env.js";
-loadEnv();
-
 import { spawn } from "node:child_process";
 import { randomBytes } from "node:crypto";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadEnv } from "./load-env.js";
 import { completeJson } from "./llm.js";
 import {
   renderReport,
@@ -264,6 +262,7 @@ async function runEval(reportPath: string, manifestPath: string): Promise<number
 }
 
 async function main() {
+  loadEnv();
   const args = process.argv.slice(2);
   const headed = args.includes("--headed");
   const skipEval = args.includes("--no-eval");
