@@ -126,3 +126,17 @@ export function renderReport(manifest: Manifest, pkg: AuditPackage): string {
 
   return lines.join("\n");
 }
+
+/** Append crawl technical checks (LLM must not invent these). */
+export function appendTechnicalChecks(
+  reportBody: string,
+  manifest: Manifest
+): string {
+  const stripped = reportBody.replace(/\n##\s*Technical checks[\s\S]*$/i, "").trim();
+  const lines = [stripped, "", "## Technical checks", "", "| Check | Status | Detail |", "|---|---|---|"];
+  for (const row of normalizeTechnicalChecks(manifest)) {
+    lines.push(`| ${row.check} | ${row.status} | ${row.detail} |`);
+  }
+  lines.push("");
+  return lines.join("\n");
+}

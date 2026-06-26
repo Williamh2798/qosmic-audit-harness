@@ -2,6 +2,23 @@
  * LLM client for Reason phase — OpenAI or Anthropic via env key.
  */
 
+export async function completeMarkdown(system: string, user: string): Promise<string> {
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+  const openaiKey = process.env.OPENAI_API_KEY;
+
+  if (anthropicKey) {
+    return anthropicText(anthropicKey, system, user);
+  }
+  if (openaiKey) {
+    return openaiText(openaiKey, system, user);
+  }
+
+  throw new Error(
+    "Set OPENAI_API_KEY or ANTHROPIC_API_KEY to run the full report pipeline.\n" +
+      "Without an API key, use Agent mode: open AGENTS.md and run the Reason + Write phases manually."
+  );
+}
+
 export async function completeJson<T>(system: string, user: string): Promise<T> {
   const anthropicKey = process.env.ANTHROPIC_API_KEY;
   const openaiKey = process.env.OPENAI_API_KEY;
@@ -68,4 +85,57 @@ async function anthropicJson<T>(apiKey: string, system: string, user: string): P
   const text = data.content.find((c) => c.type === "text")?.text ?? "";
   const cleaned = text.replace(/^```json\s*/i, "").replace(/```\s*$/i, "").trim();
   return JSON.parse(cleaned) as T;
+}
+
+async function openaiText(apiKey: string, system: string, user: string): Promise<string> {
+  const model = process.env.OPENAI_MODEL || "gpt-4o-mini";
+  const res = await fetch("https://api.openai.com/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      temperature: 0.3,
+      messages: [
+        { role: "system", content: system },
+        { role: "user", content: user },
+      ],
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`OpenAI error ${res.status}: ${await res.text()}`);
+  }
+  const data = (await res.json()) as { choices: { message: { content: string } }[] };
+  return stripMarkdownFences(data.choices[0].message.content);
+}
+
+async function anthropicText(apiKey: string, system: string, user: string): Promise<string> {
+  const model = process.env.ANTHROPIC_MODEL || "claude-sonnet-4-6";
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens: 12000,
+      temperature: 0.3,
+      system,
+      messages: [{ role: "user", content: user }],
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`Anthropic error ${res.status}: ${await res.text()}`);
+  }
+  const data = (await res.json()) as { content: { type: string; text: string }[] };
+  const text = data.content.find((c) => c.type === "text")?.text ?? "";
+  return stripMarkdownFences(text);
+}
+
+function stripMarkdownFences(text: string): string {
+  return text.replace(/^```markdown\s*/i, "").replace(/^```\s*/i, "").replace(/```\s*$/i, "").trim();
 }
