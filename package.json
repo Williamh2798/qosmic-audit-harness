@@ -8,9 +8,10 @@
     "start": "tsx scripts/help.ts",
     "setup": "npm install && playwright install chromium",
     "crawl": "tsx scripts/crawl.ts",
-    "audit": "tsx scripts/crawl.ts",
+    "audit": "tsx scripts/full-audit.ts",
     "report": "tsx scripts/full-audit.ts",
     "key": "tsx scripts/set-key.ts",
+    "digest": "tsx scripts/digest.ts",
     "eval": "tsx eval/run.ts"
   },
   "dependencies": {

@@ -703,6 +703,9 @@ async function main() {
   console.log(`Purchase model: ${manifest.purchase_model}`);
   console.log(`Crawl mode: ${manifest.crawl_mode}`);
   console.log(`Surfaces: ${result.surfaces.length} (${result.cloudflareBlocks} WAF blocks)`);
+  console.log(`\n⚠ Crawl only — raw JSON + screenshots.`);
+  console.log(`  For the readable report, run:`);
+  console.log(`  npm run audit -- ${storeUrl}`);
 }
 
 main().catch((e) => {

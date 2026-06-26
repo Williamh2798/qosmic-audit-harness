@@ -1,23 +1,15 @@
 #!/usr/bin/env npx tsx
 console.log(`
-Qosmic Audit Harness — pass any Shopify URL
+Qosmic Audit Harness
 
-ONE COMMAND (crawl + report + eval):
-  npm run report -- https://zenrojas.com
-  npm run report -- https://gingerpeople.com
+SETUP (once):
+  npm run key -- sk-ant-your-key
 
-  Requires OPENAI_API_KEY or ANTHROPIC_API_KEY in your environment.
-
-CRAWL ONLY (no API key):
+FULL AUDIT → readable report (.md):
   npm run audit -- https://gingerpeople.com
-  npm run audit -- https://gingerpeople.com --headed
 
-Then use Cursor Agent + AGENTS.md for Reason + Write, or re-run with API key.
+Output: sample_output/gingerpeople_audit.md  ← open THIS
 
-EVAL:
-  npm run eval -- sample_output/zenrojas_audit.md --manifest audits/aud_xxx/manifest.json
-
-Or:
-  ./run.sh https://zenrojas.com          # full report if API key set
-  ./run.sh crawl https://zenrojas.com    # crawl only
+Crawl only (raw JSON, no report):
+  npm run crawl -- https://gingerpeople.com
 `);

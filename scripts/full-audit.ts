@@ -295,6 +295,8 @@ async function main() {
 
   const experimentsPath = join(auditDir, "experiments.json");
   await writeFile(experimentsPath, JSON.stringify(raw.experiments, null, 2));
+  const packagePath = join(auditDir, "audit-package.json");
+  await writeFile(packagePath, JSON.stringify(raw, null, 2));
   console.log(`  experiments: ${experimentsPath}`);
 
   const report = renderReport(manifest, raw);
@@ -312,7 +314,10 @@ async function main() {
   await mkdir(join(ROOT, "sample_output"), { recursive: true });
   const reportPath = join(ROOT, "sample_output", `${slug}_audit.md`);
   await writeFile(reportPath, report);
-  console.log(`  report: ${reportPath}`);
+  console.log(`\n════════════════════════════════════════════`);
+  console.log(`  📄 YOUR REPORT: ${reportPath}`);
+  console.log(`════════════════════════════════════════════`);
+  console.log(`  Open that .md file — not the JSON in audits/`);
 
   if (!skipEval) {
     console.log("\n→ Eval phase...");
