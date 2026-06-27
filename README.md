@@ -14,7 +14,7 @@ npm run key -- sk-ant-your-key-here
 npm run report -- https://gingerpeople.com
 ```
 
-Output: `audits/{audit_id}/manifest.json` + screenshots + `sample_output/{store}_audit.md`
+Output: `audits/{audit_id}/manifest.json` + screenshots + `reports/{store}_audit.md` (+ `.html`, `.pdf`)
 
 ### Without an API key
 
@@ -31,14 +31,14 @@ npm run audit -- https://gingerpeople.com
 
 1. **Crawl** — Playwright captures surfaces + screenshots
 2. **Reason** — LLM reads manifest, writes `experiments.json`
-3. **Write** — deterministic template → `sample_output/{store}_audit.md`
+3. **Write** — deterministic template → `reports/{store}_audit.md`
 4. **Eval** — `npm run eval` scores the report
 
 **Manual** (Cursor / Claude Code / Codex reads `AGENTS.md`):
 
 1. **Crawl** — `npm run crawl -- <url>`
 2. **Reason** — agent reads manifest + screenshots, writes `experiments.json`
-3. **Write** — agent produces `sample_output/{store}_audit.md`
+3. **Write** — agent produces `reports/{store}_audit.md`
 4. **Eval** — `npm run eval -- <report.md> --manifest <manifest>`
 
 ## Crawl behavior
@@ -76,7 +76,7 @@ npm run crawl -- https://gingerpeople.com --headed
 | `scripts/crawl.ts` | Playwright crawl + technical checks |
 | `scripts/full-audit.ts` | One-command: crawl → LLM reason → report → eval |
 | `eval/` | Structural + rubric eval CLI |
-| `sample_output/` | Example audits (gingerpeople + zenrojas) |
+| `reports/` | Audit deliverables (.md, .html, .pdf) |
 
 ## Test stores
 

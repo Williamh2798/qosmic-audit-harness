@@ -12,9 +12,15 @@
     "hypothesis",
     "primary_change",
     "primary_kpi",
+    "secondary_kpi",
     "decision_rule",
     "expected_lift",
-    "confidence"
+    "confidence",
+    "implementation_effort",
+    "test_duration_weeks",
+    "minimum_detectable_effect",
+    "priority_score",
+    "analytics_events"
   ],
   "properties": {
     "exp_id": { "type": "string", "pattern": "^exp-[a-f0-9]{12}$" },
@@ -35,8 +41,18 @@
     "hypothesis": { "type": "string", "minLength": 20 },
     "primary_change": { "type": "string", "minLength": 10 },
     "primary_kpi": { "type": "string" },
+    "secondary_kpi": { "type": "string", "minLength": 5 },
     "decision_rule": { "type": "string", "minLength": 10 },
     "expected_lift": { "type": "string" },
-    "confidence": { "type": "integer", "minimum": 0, "maximum": 100 }
+    "confidence": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "implementation_effort": { "type": "string", "enum": ["S", "M", "L"] },
+    "test_duration_weeks": { "type": "integer", "minimum": 1, "maximum": 8 },
+    "minimum_detectable_effect": { "type": "string", "minLength": 5 },
+    "priority_score": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "analytics_events": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    }
   }
 }

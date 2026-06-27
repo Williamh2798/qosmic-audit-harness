@@ -1,7 +1,7 @@
 #!/usr/bin/env npx tsx
 /**
  * Qosmic audit eval CLI
- * Usage: npm run eval -- sample_output/zenrojas_audit.md --manifest audits/aud_xxx/manifest.json
+ * Usage: npm run eval -- reports/zenrojas_audit.md --manifest audits/aud_xxx/manifest.json
  */
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
@@ -24,18 +24,17 @@ async function main() {
 
   const report = await readFile(reportPath, "utf-8");
   let storeUrl: string | undefined;
+  let manifestData: { store_url?: string; funnel_analytics?: { leak_scores?: { severity: number }[] } } | undefined;
   if (manifestPath) {
     try {
-      const manifest = JSON.parse(await readFile(manifestPath, "utf-8")) as {
-        store_url?: string;
-      };
-      storeUrl = manifest.store_url;
+      manifestData = JSON.parse(await readFile(manifestPath, "utf-8")) as typeof manifestData;
+      storeUrl = manifestData?.store_url;
     } catch {
       /* ignore */
     }
   }
 
-  const structural = runStructuralEval(report, manifestPath);
+  const structural = runStructuralEval(report, manifestPath, manifestData, reportPath);
   const structuralPassed = structural.filter((r) => r.pass).length;
   const structuralTotal = structural.length;
   const structScore = structuralScore(structural);

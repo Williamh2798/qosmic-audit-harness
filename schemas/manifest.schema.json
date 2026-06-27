@@ -11,6 +11,9 @@
       "type": "string",
       "enum": ["dtc", "retailer_routed", "hybrid", "unknown"]
     },
+    "crawl_mode": { "type": "string" },
+    "funnel_analytics": { "type": "object" },
+    "funnel_steps": { "type": "object" },
     "surfaces": {
       "type": "array",
       "items": {
@@ -23,21 +26,43 @@
             "enum": [
               "homepage",
               "collection",
+              "category",
               "pdp",
               "cart",
+              "checkout",
+              "search",
               "content",
               "where-to-buy",
               "other"
             ]
           },
           "screenshot": { "type": "string" },
+          "fold_screenshot": { "type": "string" },
           "mobile_screenshot": { "type": "string" },
+          "mobile_fold_screenshot": { "type": "string" },
+          "render_source": {
+            "type": "string",
+            "enum": ["dom", "api_fallback", "geo_blocked"]
+          },
           "status": { "type": "integer" },
+          "status_note": { "type": "string" },
+          "page_url": { "type": "string" },
+          "content_verified": { "type": "boolean" },
+          "navigation_failure": { "type": "string" },
           "title": { "type": "string" },
           "meta_description": { "type": "string" },
           "text_excerpt": { "type": "string" },
+          "above_fold_excerpt": { "type": "string" },
+          "h1": { "type": "string" },
           "has_add_to_cart": { "type": "boolean" },
-          "has_price": { "type": "boolean" }
+          "has_price": { "type": "boolean" },
+          "buy_module": { "type": "object" },
+          "trust_signals": { "type": "object" },
+          "social_proof": { "type": "object" },
+          "structured_data": { "type": "array" },
+          "images": { "type": "object" },
+          "performance": { "type": "object" },
+          "shopify_product": { "type": "object" }
         }
       }
     },
@@ -56,6 +81,19 @@
     "category_keywords": {
       "type": "array",
       "items": { "type": "string" }
+    },
+    "store_insights": {
+      "type": "object",
+      "properties": {
+        "store_name": { "type": "string" },
+        "purchase_path_summary": { "type": "string" },
+        "top_leaks": { "type": "array", "items": { "type": "string" } },
+        "scored_leaks": { "type": "array" },
+        "strengths": { "type": "array", "items": { "type": "string" } },
+        "experiment_seeds": { "type": "array", "items": { "type": "string" } },
+        "funnel_health_score": { "type": "integer" },
+        "buy_path_completeness": { "type": "integer" }
+      }
     }
   }
 }

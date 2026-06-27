@@ -31,10 +31,18 @@ export function runHeuristicRubric(report: string): RubricScore[] {
 
   const hypotheses = report.match(/\*\*Hypothesis:\*\*[^\n]+/gi) || [];
   const withBecause = hypotheses.filter((h) => /because|by converting|improves by/i.test(h)).length;
+  const hasFunnelDiagnosis = /##\s*Funnel diagnosis/i.test(report);
+  const hasPriorityMatrix = /##\s*Experiment priority matrix/i.test(report);
+  const hasSecondaryKpi = (report.match(/\*\*Secondary KPI:\*\*/gi) || []).length;
+  const hasEffort = (report.match(/\*\*Implementation effort:\*\*/gi) || []).length;
   scores.push({
     dimension: "hypothesis_quality",
-    score: Math.min(5, Math.round((withBecause / Math.max(hypotheses.length, 1)) * 5)),
-    rationale: `${withBecause}/${hypotheses.length} hypotheses state causal mechanism`,
+    score: Math.min(
+      5,
+      Math.round((withBecause / Math.max(hypotheses.length, 1)) * 4) +
+        (hasFunnelDiagnosis ? 1 : 0)
+    ),
+    rationale: `${withBecause}/${hypotheses.length} hypotheses causal; funnel diagnosis=${hasFunnelDiagnosis}; priority matrix=${hasPriorityMatrix}; secondary KPIs=${hasSecondaryKpi}; effort tags=${hasEffort}`,
   });
 
   const pillars = ["Conversion", "AOV", "Retention", "Acquisition", "Performance"];
@@ -47,7 +55,7 @@ export function runHeuristicRubric(report: string): RubricScore[] {
     rationale: `${pillarHits}/5 pillars represented`,
   });
 
-  const exec = report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Proposed experiments/i)[0] || "";
+  const exec = report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Funnel diagnosis/i)[0] || "";
   const expTitles = (report.match(/###\s*exp-[^—]+—\s*([^\n]+)/gi) || []).map((t) => t.toLowerCase());
   const execWords = exec.toLowerCase();
   const overlap = expTitles.filter((t) => {

@@ -1,0 +1,2955 @@
+{
+  "store_url": "https://gingerpeople.com",
+  "audit_id": "aud_08e2e34017895adf",
+  "crawled_at": "2026-06-27T07:17:48.167Z",
+  "purchase_model": "retailer_routed",
+  "crawl_mode": "chromium-headless-stealth",
+  "surfaces": [
+    {
+      "url": "https://gingerpeople.com",
+      "type": "homepage",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "screenshot": "audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3549631
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ],
+      "performance": {
+        "lcp_ms": null,
+        "ttfb_ms": 2828,
+        "total_page_weight_bytes": 4286234,
+        "request_count": 86,
+        "dom_content_loaded_ms": 2892
+      }
+    },
+    {
+      "url": "https://gingerpeople.com/collections/all",
+      "type": "collection",
+      "status": 404,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/the-ginger-people-products",
+      "type": "category",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products",
+      "type": "category",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products/ginger-soother-turmeric-gingerade",
+      "type": "pdp",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products/gin-gins-original-ginger-chews",
+      "type": "pdp",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products/gin-gins-ginger-spice-drops",
+      "type": "pdp",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products/ginger-rescue-chewable-ginger-tablets-strong",
+      "type": "pdp",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/products/fiji-ginger-juice",
+      "type": "pdp",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/cart",
+      "type": "cart",
+      "status": 404,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/checkout",
+      "type": "checkout",
+      "status": 404,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/search",
+      "type": "search",
+      "status": 404,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/where-to-buy-the-ginger-people-products",
+      "type": "where-to-buy",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/pages/about",
+      "type": "content",
+      "status": 500,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/pages/about-us",
+      "type": "content",
+      "status": 500,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/pages/contact",
+      "type": "content",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/pages/faq",
+      "type": "content",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/pages/faqs",
+      "type": "content",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/blogs/news",
+      "type": "content",
+      "status": 404,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    },
+    {
+      "url": "https://gingerpeople.com/health-blog",
+      "type": "other",
+      "status": 200,
+      "page_url": "https://gingerpeople.com/",
+      "content_verified": false,
+      "navigation_failure": "geo_gate",
+      "render_source": "geo_blocked",
+      "title": "The Ginger People - Ginger and Turmeric Food and Beverages",
+      "meta_description": "Fresh ginger and turmeric products that are non-GMO, vegan, and gluten free. Try GIN GINS®, Ginger Rescue®, Juices & Sushi Ginger today.",
+      "text_excerpt": "CHOOSE YOUR LOCATION: NORTH AMERICA EUROPE ASIA PACIFIC PRODUCTS BULK INGREDIENTS RECIPES ABOUT BLOG WHERE TO BUY Ginger Rescue® Digestive Wellness Lozenges For natural nausea relief SHOP NOW WORLD’S #1 SELLING GINGER CANDY Close to Freshness, Close to Heart Real Ginger. Real Benefits. Real Delicious. SHOP NOW Discover What Fans Love About The Ginger People At The Ginger People, we’re more than just a brand—we’re a community of people who believe in the power of ginger and turmeric to improve your health and wellbeing. Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved My Life These are fabulous. I have a delicate tummy and some days are tough. These tablets are my go-to. I thought I ranShow more ~ Sallie SHOP GINGER RESCUE TABLETS Thank You for Changing My Life! For over 6 years I have suffered from numerous conditions and have not found relief despite various treatments and medications and dietary changesShow more ~ G.C. SHOP FIJI GINGER JUICE Natural Remedy for Upset Stomach As a mother of seven and grandmother of seven, I’ve dealt with plenty of motion sickness, morning sickness and digestive discomfortShow more ~ Susan SHOP HARD GINGER LOZENGES Changed my life! I was recently diagnosed with Trigeminal Neuralgia a few days before my 33rd birthday. Aside from my prescription meds, I struggled to findShow more ~ Natalie SHOP TURMERIC GINGERADE Your products have been a godsend! I am writing to thank you for your amazing products. I broke my ankle 7 weeks ago. Somehow, a few weeks after surgeryShow more ~ Lorraine SHOP FIJI TURMERIC JUICE Amazing Stuff! I have chronic pancreatitis. Since I knew ginger and turmeric were great natural anti-inflammatory substances, I started trying your Ginger and TurmericShow more ~ Stephen SHOP TURMERIC GINGERADE Grateful! I am so grateful for these tablets. I use them along with my pressure point bands (on my wrists) when traveling via planeShow more ~ Shivonne SHOP GINGER RESCUE TABLETS Best period nausea treatment I suffer with severe nausea from period cramps. Every month I take one or two of these candies and they do more forShow more ~ Emma SHOP ORIGINAL GIN GINS Life Saver I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled myShow more ~ TTBS SHOP ORIGINAL GIN GINS Life Changing Remedy I have Non-Postional Vertigo due to a head injury. My Vertigo is permanent due to parental neglect. GIN GINS are an amazinglyShow more ~ Jane Brown SHOP GINGER SPICE DROPS Saved",
+      "above_fold_excerpt": "Choose Your Location: NORTH AMERICA EUROPE ASIA PACIFIC Follow Follow Follow Follow Follow Follow Products [ All Products ] GIN GINS® Tablets & Lozenges Health Shots Juices Beverages Pantry – Baking Pantry – Cooking Sauces Specialty/Deli Products [ All Products ] [ All Products ] GIN GINS® GIN GINS® Tablets & Lozenges Tablets & Lozenges Health Shots Health Shots Juices Juices Beverages Beverages Pantry – Baking Pantry – Baking Pantry – Cooking Pantry – Cooking Sauces Sauces Specialty/Deli Specialty/Deli Bulk Ingredients Bulk Ingredients Recipes Recipes About Our Story Organic and Non-GMO Standards FAQ Health Benefits Ginger Turmeric About Our Story Our Story Organic and Non-GMO Standards Organic and Non-GMO Standards FAQ FAQ Health Benefits Ginger Turmeric Health Benefits Ginger Ginger Tur",
+      "has_add_to_cart": false,
+      "has_price": false,
+      "h1": "Close to Freshness,Close to Heart",
+      "h2_headings": [
+        "Real Ginger. Real Benefits. Real Delicious."
+      ],
+      "nav_items": [
+        "NORTH AMERICA",
+        "EUROPE",
+        "ASIA PACIFIC",
+        "Follow",
+        "AUSTRALIA",
+        "PRODUCTS",
+        "BULK INGREDIENTS",
+        "RECIPES",
+        "ABOUT",
+        "BLOG",
+        "WHERE TO BUY",
+        "Products",
+        "[ All Products ]",
+        "GIN GINS®",
+        "Tablets & Lozenges",
+        "Health Shots",
+        "Juices",
+        "Beverages",
+        "Pantry – Baking",
+        "Pantry – Cooking"
+      ],
+      "cta_buttons": [
+        "SHOP NOW",
+        "SEE RECIPE"
+      ],
+      "review_count": null,
+      "is_error_page": false,
+      "sold_out": false,
+      "has_retailer_handoff": true,
+      "has_store_locator": false,
+      "has_newsletter": true,
+      "product_tile_count": 0,
+      "testimonial_snippets": [
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio",
+        "I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks now and they have settled my tummy amazingly. I could eat them just to eat them even. They are delicio"
+      ],
+      "buy_module": {
+        "price_text": null,
+        "atc_label": null,
+        "has_quantity_selector": false,
+        "has_variant_picker": false,
+        "has_subscription": false,
+        "retailer_links": [
+          "WHERE TO BUY",
+          "Where to Buy",
+          "SHOP NOW"
+        ]
+      },
+      "trust_signals": {
+        "free_shipping_threshold": null,
+        "return_policy_snippet": null,
+        "payment_icons": [],
+        "security_badges": []
+      },
+      "social_proof": {
+        "star_rating": null,
+        "review_count": null,
+        "source": null
+      },
+      "structured_data": [
+        {
+          "type": "WebPage",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "ImageObject",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "BreadcrumbList",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "WebSite",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        },
+        {
+          "type": "Organization",
+          "price": null,
+          "rating": null,
+          "review_count": null
+        }
+      ],
+      "images": {
+        "count": 23,
+        "missing_alt_pct": 87,
+        "largest_url": "https://gingerpeople.com/wp-content/uploads/2024/11/GG_HeartLeaves-crop-980x899.png",
+        "largest_bytes": 651693,
+        "total_bytes": 3587922
+      },
+      "filters_and_sort": [],
+      "breadcrumb": null,
+      "internal_links": [
+        "/the-ginger-people-products/",
+        "/gin-gins/",
+        "/ginger-rescue-tablets-lozenges/",
+        "/ginger-rescue-ginger-shots/",
+        "/ginger-and-turmeric-juice/",
+        "/ginger-soother-gingerade/",
+        "/ginger-pantry-baking/",
+        "/ginger-pantry-cooking/",
+        "/sauces/",
+        "/specialty-deli/",
+        "/ingredients/",
+        "/our-recipes/",
+        "/our-story/",
+        "/organic-non-gmo-standards/",
+        "/faqs/"
+      ]
+    }
+  ],
+  "category_keywords": [
+    "gingerpeople",
+    "ginger",
+    "close",
+    "people",
+    "real",
+    "freshness"
+  ],
+  "funnel_analytics": {
+    "funnel_health_score": 66,
+    "leak_scores": [
+      {
+        "id": "geo_gate_blocked",
+        "surface": "PDP navigation",
+        "pillar": "Performance",
+        "severity": 5,
+        "affected_traffic_pct": "20–40%",
+        "evidence": "https://gingerpeople.com/products/ginger-soother-turmeric-gingerade",
+        "description": "5 PDP(s) blocked by geo/region gate — captured homepage shell instead."
+      },
+      {
+        "id": "cart_unverified",
+        "surface": "/cart",
+        "pillar": "Performance",
+        "severity": 3,
+        "affected_traffic_pct": "3–6%",
+        "evidence": "https://gingerpeople.com/cart",
+        "description": "Cart URL did not load verifiable content."
+      }
+    ],
+    "benchmark_gaps": [
+      {
+        "metric": "Product JSON-LD coverage",
+        "observed": "0%",
+        "category_median": "70%",
+        "gap_pct": 70
+      },
+      {
+        "metric": "PDP buy module present",
+        "observed": "0%",
+        "category_median": "75%",
+        "gap_pct": 75
+      }
+    ],
+    "buy_path_completeness": 60,
+    "proof_commerce_gap": 0
+  },
+  "store_insights": {
+    "store_name": "The Ginger People",
+    "purchase_path_summary": "Retailer-routed: shoppers must find external buy path; optimize retailer/locator handoffs.",
+    "top_leaks": [
+      "[severity 5, ~20–40% sessions] 5 PDP(s) blocked by geo/region gate — captured homepage shell instead.",
+      "[severity 3, ~3–6% sessions] Cart URL did not load verifiable content."
+    ],
+    "scored_leaks": [
+      {
+        "id": "geo_gate_blocked",
+        "description": "5 PDP(s) blocked by geo/region gate — captured homepage shell instead.",
+        "severity": 5,
+        "pillar": "Performance",
+        "estimated_session_impact_pct": "20–40%"
+      },
+      {
+        "id": "cart_unverified",
+        "description": "Cart URL did not load verifiable content.",
+        "severity": 3,
+        "pillar": "Performance",
+        "estimated_session_impact_pct": "3–6%"
+      }
+    ],
+    "strengths": [
+      "Homepage testimonials: \"I’m pregnant and these have been a life saver my whole pregnancy. Im 34 weeks no...\"",
+      "Homepage CTAs: SHOP NOW, SEE RECIPE"
+    ],
+    "experiment_seeds": [
+      "Fix geo gate so PDP deep links resolve",
+      "Fix /cart route with purchase recovery page"
+    ],
+    "funnel_health_score": 66,
+    "buy_path_completeness": 60
+  },
+  "technical_checks": [
+    {
+      "check": "SSL Certificate",
+      "status": "Pass",
+      "detail": "HTTPS storefront loaded successfully."
+    },
+    {
+      "check": "HTTPS Redirect",
+      "status": "Warn",
+      "detail": "HTTP redirect was not verified in this pass."
+    },
+    {
+      "check": "Sitemap",
+      "status": "Warn",
+      "detail": "sitemap.xml not found or returned an error."
+    },
+    {
+      "check": "Robots.txt",
+      "status": "Pass",
+      "detail": "robots.txt responded successfully."
+    },
+    {
+      "check": "Critical Pages Loading",
+      "status": "Fail",
+      "detail": "Issues on: https://gingerpeople.com/collections/all, https://gingerpeople.com/cart."
+    },
+    {
+      "check": "Meta Tags & Social Previews",
+      "status": "Pass",
+      "detail": "20/20 pages had title + meta description."
+    },
+    {
+      "check": "Structured Data",
+      "status": "Warn",
+      "detail": "No verified PDPs — Product JSON-LD not confirmed."
+    },
+    {
+      "check": "Favicon",
+      "status": "Pass",
+      "detail": "Favicon link detected on homepage."
+    },
+    {
+      "check": "Mobile-Friendly",
+      "status": "Warn",
+      "detail": "Mobile capture was not completed."
+    },
+    {
+      "check": "Page Speed Mobile",
+      "status": "Warn",
+      "detail": "No performance metrics captured."
+    },
+    {
+      "check": "Page Speed Desktop",
+      "status": "Warn",
+      "detail": "No desktop speed run performed."
+    },
+    {
+      "check": "Broken Links",
+      "status": "Fail",
+      "detail": "Broken/blocked: https://gingerpeople.com/collections/all, https://gingerpeople.com/cart, https://gingerpeople.com/checkout, https://gingerpeople.com/search, https://gingerpeople.com/pages/about, https://gingerpeople.com/pages/about-us, https://gingerpeople.com/blogs/news, /the-ginger-people-products/, /gin-gins/, /ginger-rescue-tablets-lozenges/, /ginger-rescue-ginger-shots/, /ginger-and-turmeric-juice/, /ginger-soother-gingerade/, /ginger-pantry-baking/, /ginger-pantry-cooking/, /sauces/, /specialty-deli/."
+    },
+    {
+      "check": "Image Optimization",
+      "status": "Fail",
+      "detail": "87% images missing alt text on homepage. Total page weight 4MB."
+    },
+    {
+      "check": "Cookie/Privacy",
+      "status": "Pass",
+      "detail": "Privacy policy link visible in footer."
+    },
+    {
+      "check": "Checkout Reachable",
+      "status": "Fail",
+      "detail": "Cart/checkout path was not reachable from crawl."
+    }
+  ]
+}

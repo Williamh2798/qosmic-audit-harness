@@ -12,8 +12,8 @@ Run when the user provides a Shopify storefront URL and wants a CRO audit.
 1. **Crawl** — `npm run crawl -- <url>`. Note `audit_id` from output.
 2. **Read manifest** — `audits/{audit_id}/manifest.json`
 3. **Reason** — follow `qosmic-reason` skill; write `audits/{audit_id}/experiments.json`
-4. **Write** — follow `qosmic-write` skill; output `sample_output/{slug}_audit.md`
-5. **Eval** — `npm run eval -- sample_output/{slug}_audit.md --manifest audits/{audit_id}/manifest.json`
+4. **Write** — follow `qosmic-write` skill; output `reports/{slug}_audit.md`
+5. **Eval** — `npm run eval -- reports/{slug}_audit.md --manifest audits/{audit_id}/manifest.json`
 
 ## Pillar allocation
 

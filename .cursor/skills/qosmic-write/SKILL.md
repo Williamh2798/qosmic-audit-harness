@@ -13,7 +13,11 @@ description: Write the final Qosmic audit report markdown from experiments.json 
 
 ## Output
 
-`sample_output/{store_slug}_audit.md`
+- `reports/{store_slug}_audit.md` — agent/engineering artifact
+- `reports/{store_slug}_audit.html` — browser preview
+- `reports/{store_slug}_audit.pdf` — human deliverable (deterministic template, not LLM)
+
+Re-render HTML/PDF without LLM: `npm run digest -- reports/{slug}_audit.md`
 
 ## Report structure
 
@@ -21,21 +25,62 @@ description: Write the final Qosmic audit report markdown from experiments.json 
 
 `# {Store Name} audit — {one-line thesis}`
 
-Thesis = highest-level revenue constraint in plain language.
+Thesis = highest-level revenue constraint in plain language. **Max 12 words** (PDF cover headline).
 
 ### Executive summary
 
 Exactly 3 paragraphs:
 
 1. **Proof/moat** — what the store does well (reviews, brand, content, product proof)
-2. **Leaks** — 2–3 structural problems costing sales (cite surfaces)
-3. **First move** — recommended priority test and why
+2. **Leaks** — 2–3 structural problems costing sales (cite surfaces, use session impact %)
+3. **First move** — recommended priority test and why (reference highest priority_score)
 
 Bold the lead sentence of each paragraph.
 
+### Funnel diagnosis
+
+Table after executive summary:
+
+```markdown
+## Funnel diagnosis
+
+**Funnel health score:** {N}/100 | **Buy path completeness:** {N}%
+
+| Stage | Health | Gap | Est. session impact |
+|---|---|---|---|
+```
+
+Pull rows from `manifest.funnel_analytics.leak_scores` and `benchmark_gaps`. Use percentages only — no dollar amounts.
+
+### Experiment priority matrix
+
+Before proposed experiments:
+
+```markdown
+## Experiment priority matrix
+
+| Rank | Experiment | Lift | Effort | Priority | Why now |
+|---|---|---|---|---|---|
+```
+
+Sort by `priority_score` descending from experiments.json.
+
+### Analytics instrumentation
+
+```markdown
+## Analytics instrumentation
+
+Events to add before testing:
+
+- `retailer_click`
+- `buy_box_impression`
+```
+
+Aggregate unique events from all experiments' `analytics_events` fields.
+
 ### Proposed experiments
 
-For each of 10 experiments:
+For each of 10 experiments (sorted by priority_score):
 
 ```markdown
 ### exp-{id} — {title}
@@ -47,12 +92,16 @@ For each of 10 experiments:
 **Hypothesis:** {hypothesis}
 **Primary change:** {change}
 **Primary KPI:** {kpi}
+**Secondary KPI:** {guardrail}
 **Decision rule:** {rule}
 **Expected lift:** {range}
 **Confidence:** {N}%
+**Implementation effort:** {S|M|L}
+**Test duration:** {N} weeks
+**Minimum detectable effect:** {MDE}
+**Priority score:** {1–100}
+**Analytics events:** {comma-separated}
 ```
-
-Order: group by pillar or by priority — either is fine.
 
 ### Competitor analysis
 
@@ -64,14 +113,14 @@ Intro sentence + markdown table:
 
 ### Technical checks
 
-Import rows from `manifest.technical_checks`. Ensure ~15 rows with Pass/Warn/Fail and one-line detail. Add agent observations if crawl missed checks.
+Import rows from `manifest.technical_checks`. Ensure ~15 rows with Pass/Warn/Fail and one-line detail.
 
 ## Citation rules
 
 - Every experiment evidence field must appear verbatim in the report.
-- Executive summary claims must map to at least one experiment or technical check.
+- Executive summary claims must map to funnel_analytics or experiments.
 - Use relative paths for screenshots: `audits/{audit_id}/screenshots/...`
 
 ## Quality bar
 
-See `takehome/target_report.md` for tone: direct, specific, revenue-focused. No filler. No speculation without Warn/Fail qualification.
+See `takehome/target_report.md` for tone: direct, specific, revenue-focused. No filler. No speculation without Warn/Fail qualification. Metrics are percentages and scores only.

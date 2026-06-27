@@ -8,7 +8,7 @@ One Shopify storefront URL (e.g. `https://gingerpeople.com`). No other config.
 
 ## Output
 
-One audit report file: `sample_output/{store_slug}_audit.md`
+One audit report file: `reports/{store_slug}_audit.md` (+ `.html`, `.pdf`)
 
 Must contain exactly:
 
@@ -34,7 +34,7 @@ npm run report -- <store-url>
 # e.g. npm run report -- https://gingerpeople.com
 ```
 
-Runs crawl → LLM reason → report → eval. Output: `sample_output/{slug}_audit.md`.
+Runs crawl → LLM reason → report → eval. Output: `reports/{slug}_audit.md` (+ `.html`, `.pdf`).
 
 ### Manual phases
 
@@ -57,12 +57,12 @@ Read `.cursor/skills/qosmic-reason/SKILL.md`. Using manifest artifacts only:
 
 #### Phase 3: Write
 
-Read `.cursor/skills/qosmic-write/SKILL.md`. Produce final report at `sample_output/{slug}_audit.md`.
+Read `.cursor/skills/qosmic-write/SKILL.md`. Produce final report at `reports/{slug}_audit.md`.
 
 #### Phase 4: Eval (optional)
 
 ```bash
-npm run eval -- sample_output/{slug}_audit.md --manifest audits/{audit_id}/manifest.json
+npm run eval -- reports/{slug}_audit.md --manifest audits/{audit_id}/manifest.json
 ```
 
 ## Quality gates

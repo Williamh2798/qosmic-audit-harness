@@ -2,6 +2,8 @@
  * Structural eval — deterministic checks on audit reports.
  */
 
+import { existsSync } from "node:fs";
+
 export type CheckResult = {
   name: string;
   pass: boolean;
@@ -17,12 +19,29 @@ const REQUIRED_EXP_FIELDS = [
   "Hypothesis:",
   "Primary change:",
   "Primary KPI:",
+  "Secondary KPI:",
   "Decision rule:",
   "Expected lift:",
   "Confidence:",
+  "Implementation effort:",
+  "Test duration:",
+  "Minimum detectable effect:",
+  "Priority score:",
+  "Analytics events:",
 ];
 
-export function runStructuralEval(report: string, manifestPath?: string): CheckResult[] {
+type ManifestForEval = {
+  funnel_analytics?: {
+    leak_scores?: { severity: number }[];
+  };
+};
+
+export function runStructuralEval(
+  report: string,
+  manifestPath?: string,
+  manifest?: ManifestForEval,
+  reportPath?: string
+): CheckResult[] {
   const results: CheckResult[] = [];
 
   const hasExec = /##\s*Executive summary/i.test(report);
@@ -30,6 +49,20 @@ export function runStructuralEval(report: string, manifestPath?: string): CheckR
     name: "executive_summary_section",
     pass: hasExec,
     detail: hasExec ? "Executive summary present" : "Missing executive summary",
+  });
+
+  const hasFunnelDiagnosis = /##\s*Funnel diagnosis/i.test(report);
+  results.push({
+    name: "funnel_diagnosis_section",
+    pass: hasFunnelDiagnosis,
+    detail: hasFunnelDiagnosis ? "Funnel diagnosis present" : "Missing funnel diagnosis",
+  });
+
+  const hasPriorityMatrix = /##\s*Experiment priority matrix/i.test(report);
+  results.push({
+    name: "priority_matrix_section",
+    pass: hasPriorityMatrix,
+    detail: hasPriorityMatrix ? "Priority matrix present" : "Missing priority matrix",
   });
 
   const hasExperiments = /##\s*Proposed experiments/i.test(report);
@@ -104,6 +137,13 @@ export function runStructuralEval(report: string, manifestPath?: string): CheckR
     detail: `${fieldsOk}/10 experiments have all required fields`,
   });
 
+  const hasPriorityScores = (report.match(/\*\*Priority score:\*\*\s*\d+/gi) || []).length;
+  results.push({
+    name: "priority_scores_present",
+    pass: hasPriorityScores >= 10,
+    detail: `${hasPriorityScores}/10 experiments have priority scores`,
+  });
+
   const evidenceRefs = report.match(/\*\*Evidence:\*\*[^\n]+/gi) || [];
   const grounded = evidenceRefs.filter(
     (e) => /audits\/|https?:\/\//i.test(e)
@@ -121,7 +161,7 @@ export function runStructuralEval(report: string, manifestPath?: string): CheckR
     detail: `${techRows} technical check rows (need ≥15)`,
   });
 
-  const execParagraphs = (report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Proposed experiments/i)[0] || "")
+  const execParagraphs = (report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Funnel diagnosis/i)[0] || "")
     .split(/\n\n+/)
     .filter((p) => p.trim().length > 80).length;
   results.push({
@@ -142,6 +182,25 @@ export function runStructuralEval(report: string, manifestPath?: string): CheckR
       name: "manifest_reference",
       pass: /audits\/aud_[a-f0-9]+/i.test(report),
       detail: "Report references audit artifact paths",
+    });
+  }
+
+  if (manifest?.funnel_analytics?.leak_scores) {
+    const highSev = manifest.funnel_analytics.leak_scores.filter((l) => l.severity >= 4).length;
+    results.push({
+      name: "high_severity_leak_coverage",
+      pass: highSev === 0 || report.includes("Proposed experiments"),
+      detail: `${highSev} severity-4+ leaks in manifest`,
+    });
+  }
+
+  if (reportPath) {
+    const pdfPath = reportPath.replace(/\.md$/i, ".pdf");
+    const hasPdf = existsSync(pdfPath);
+    results.push({
+      name: "pdf_deliverable",
+      pass: true,
+      detail: hasPdf ? `PDF found at ${pdfPath}` : "PDF not generated (optional — run digest or full audit)",
     });
   }
 

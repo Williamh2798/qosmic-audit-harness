@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>The Ginger People — Qosmic Audit</title>
+  <style id="qosmic-audit-css">:root {
+  --ink: #1a1a1a;
+  --muted: #555;
+  --border: #ddd;
+  --accent: #2563eb;
+  --pass: #15803d;
+  --warn: #b45309;
+  --fail: #b91c1c;
+  --card-bg: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 22pt;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 14pt;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25em;
+}
+
+h3 {
+  font-size: 12pt;
+  margin-bottom: 0.35em;
+}
+
+p {
+  margin: 0 0 0.85em;
+}
+
+.cover {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  page-break-after: always;
+  padding: 2in 0 1in;
+}
+
+.cover .store-name {
+  font-size: 28pt;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.cover .thesis {
+  font-size: 14pt;
+  color: var(--muted);
+  max-width: 28em;
+  margin: 0.5em 0 1.5em;
+}
+
+.cover .meta {
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.score-badge {
+  display: inline-block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: 600;
+  padding: 0.35em 0.75em;
+  border-radius: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  margin-top: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.5pt;
+  margin: 0.75em 0 1.25em;
+  page-break-inside: auto;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.4em 0.55em;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #eef2f7;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+tr {
+  page-break-inside: avoid;
+}
+
+.status-pass { color: var(--pass); font-weight: 600; }
+.status-warn { color: var(--warn); font-weight: 600; }
+.status-fail { color: var(--fail); font-weight: 600; }
+
+.experiment-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em 0;
+  background: var(--card-bg);
+  page-break-inside: avoid;
+}
+
+.experiment-card h3 {
+  margin-top: 0;
+}
+
+.pillar-badge {
+  display: inline-block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  background: var(--accent);
+  color: #fff;
+  margin-right: 0.5em;
+}
+
+.priority-score {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 9pt;
+  color: var(--muted);
+}
+
+.evidence-img {
+  max-width: 100%;
+  max-height: 280px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 0.75em 0;
+  display: block;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em 1.5em;
+  font-size: 9.5pt;
+  margin-top: 0.75em;
+}
+
+.grid-2 dt {
+  font-weight: 600;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: var(--muted);
+  margin: 0;
+}
+
+.grid-2 dd {
+  margin: 0 0 0.5em;
+}
+
+ul.events {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  padding-left: 1.25em;
+}
+
+@media print {
+  body { font-size: 10pt; }
+  .cover { padding-top: 1.5in; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+  <section class="cover">
+    <div class="store-name">The Ginger People</div>
+    <p class="thesis">Geo gate swallows PDPs; retailer handoff needs a real bridge</p>
+    <p class="meta">Qosmic CRO Audit · June 27, 2026</p>
+    <div class="score-badge">Funnel health 66/100 · Buy path 60%</div>
+  </section>
+
+  <h2>Executive summary</h2>
+  <p><strong>The Ginger People carries genuine brand equity — &quot;World's #1 Selling Ginger Candy&quot; and a homepage testimonial from a 34-week pregnant shopper are the kind of proof points most CPG brands spend years earning — but the site is structurally preventing that equity from converting.</strong> Every PDP crawled, from Gin-Gins Original Ginger Chews to Fiji Ginger Juice, returned the homepage shell instead of product content. A visitor who lands on a deep-linked PDP from a Google search, a social post, or a retailer referral sees &quot;Close to Freshness, Close to Heart&quot; and a location selector — not the product they came for. That geo gate is intercepting an estimated 20–40% of sessions before a single product detail renders.</p>
+<p><strong>The retailer-routed purchase model makes the geo gate problem worse, not better, because the entire job of the .com is to warm the shopper and hand them off cleanly to a retail partner or the &quot;Where to Buy&quot; locator.</strong> When PDPs don't load, that handoff never happens. There is zero Product JSON-LD on any crawled page against a category median of 70%, meaning organic product searches that should surface individual SKUs instead surface nothing — or a competitor. The buy module completeness sits at 60%, and the cart URL returned unverifiable content, suggesting the direct-purchase path is also broken for the fraction of shoppers who try it.</p>
+<p><strong>The content and community foundation is strong enough to support a much higher funnel health score than 66.</strong> &quot;Real Ginger. Real Benefits. Real Delicious.&quot; is a clean, credible positioning line. The Ginger Rescue® Digestive Wellness Lozenges lead with a specific benefit — &quot;natural nausea relief&quot; — that maps directly to high-intent search queries. The recipe content and the SHOP NOW / SEE RECIPE CTA pairing show someone understands content-to-commerce. The gap is entirely execution: the geo gate needs to resolve PDPs for all regions, the &quot;Where to Buy&quot; nav label needs to be the primary CTA on every product page, and structured data needs to be added so Google can actually index what's being sold.</p>
+
+  <h2>Funnel diagnosis</h2>
+  <p><strong>Funnel health score:</strong> 66/100 · <strong>Buy path completeness:</strong> 60%</p>
+  <table>
+    <thead><tr><th>Stage</th><th>Health</th><th>Gap</th><th>Est. session impact</th></tr></thead>
+    <tbody><tr><td>PDP navigation</td><td>Severity 5/5</td><td>5 PDP(s) blocked by geo/region gate — captured homepage shell instead.</td><td>20–40%</td></tr>
+<tr><td>/cart</td><td>Severity 3/5</td><td>Cart URL did not load verifiable content.</td><td>3–6%</td></tr></tbody>
+  </table>
+
+  <h2>Experiment priority matrix</h2>
+  <table>
+    <thead><tr><th>Rank</th><th>Experiment</th><th>Lift</th><th>Effort</th><th>Priority</th><th>Why now</th></tr></thead>
+    <tbody><tr><td>1</td><td>exp-7aa65aedf8c4</td><td>+8–18%</td><td>M</td><td>97</td><td>Remove geo gate blocking PDP deep links for 20–40%</td></tr>
+<tr><td>2</td><td>exp-bf6ffd0b4a1a</td><td>+10–18%</td><td>M</td><td>93</td><td>Add a persistent retailer buy-box to every PDP</td></tr>
+<tr><td>3</td><td>exp-638590bdfc90</td><td>+6–14%</td><td>S</td><td>85</td><td>Replace broken /cart route with a retailer purchas</td></tr>
+<tr><td>4</td><td>exp-7033f625dc39</td><td>+7–15%</td><td>M</td><td>80</td><td>Surface inline retailer CTAs on every collection c</td></tr>
+<tr><td>5</td><td>exp-cb19203170b8</td><td>+5–12%</td><td>S</td><td>74</td><td>Add Product JSON-LD structured data to all PDPs</td></tr>
+<tr><td>6</td><td>exp-8cc6663e2173</td><td>+8–16%</td><td>S</td><td>71</td><td>Pin a 'Where to Buy' sticky bar on all PDPs for mo</td></tr>
+<tr><td>7</td><td>exp-7472d78ee2df</td><td>+6–12%</td><td>S</td><td>63</td><td>Embed homepage testimonials directly above the her</td></tr>
+<tr><td>8</td><td>exp-8cac91302279</td><td>+5–12%</td><td>M</td><td>55</td><td>Add a product-specific retailer CTA to every blog/</td></tr>
+<tr><td>9</td><td>exp-a6a37b6c8b0b</td><td>+4–10%</td><td>M</td><td>47</td><td>Add an email capture with ginger-tips lead magnet </td></tr>
+<tr><td>10</td><td>exp-0333c53d7877</td><td>+5–10%</td><td>M</td><td>38</td><td>Show a 'You may also like' product carousel on the</td></tr></tbody>
+  </table>
+
+  <h2>Analytics instrumentation</h2><p>Events to add before testing:</p><ul class="events"><li><code>geo_gate_modal_shown</code></li>
+<li><code>geo_gate_region_selected</code></li>
+<li><code>pdp_buy_button_clicked</code></li>
+<li><code>where_to_buy_locator_opened</code></li>
+<li><code>retailer_link_clicked</code></li>
+<li><code>cart_page_loaded</code></li></ul>
+
+  <h2>Proposed experiments</h2>
+  <article class="experiment-card">
+  <h3><span class="pillar-badge">Performance</span>exp-7aa65aedf8c4 — Remove geo gate blocking PDP deep links for 20–40% of sessions <span class="priority-score">Priority 97</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Remove geo gate blocking PDP deep links for 20–40% of sessions" />
+  <p><strong>Affected surface:</strong> PDP navigation · <a href="https://gingerpeople.com/products/ginger-soother-turmeric-gingerade">https://gingerpeople.com/products/ginger-soother-turmeric-gingerade</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because 5 PDPs blocked by geo/region gate — captured homepage shell instead of product content, affecting 20–40% of sessions as cited in leak id 'geo_gate_blocked' severity 5</p>
+  <p><strong>Primary change:</strong> Serve product page content to all regions by default and move geo-selection to a non-blocking banner or modal overlay that does not redirect to homepage shell</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>PDP retailer click-through rate</dd>
+    <dt>Secondary KPI</dt><dd>PDP bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if retailer click-through rate lifts ≥+8% relative with p&lt;0.05; kill if PDP bounce rate rises &gt;5% relative</dd>
+    <dt>Expected lift</dt><dd>+8–18%</dd>
+    <dt>Confidence</dt><dd>82%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +8% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>geo_gate_shown, geo_gate_dismissed, pdp_view, retailer_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Conversion</span>exp-bf6ffd0b4a1a — Add a persistent retailer buy-box to every PDP <span class="priority-score">Priority 93</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Add a persistent retailer buy-box to every PDP" />
+  <p><strong>Affected surface:</strong> PDP · <a href="https://gingerpeople.com/products/gin-gins-original-ginger-chews">https://gingerpeople.com/products/gin-gins-original-ginger-chews</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because 'PDP buy module present' is observed at 0% vs category median of 75%, meaning shoppers landing on PDPs have no clear purchase action visible as cited in benchmark_gaps</p>
+  <p><strong>Primary change:</strong> Inject a sticky buy-box section on all PDPs containing retailer CTA buttons (Amazon, Walmart, etc.) with product name and a 'Where to Buy' anchor link</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>PDP retailer click-through rate</dd>
+    <dt>Secondary KPI</dt><dd>PDP scroll depth</dd>
+    <dt>Decision rule</dt><dd>Ship if retailer click-through rate lifts ≥+8% relative with p&lt;0.05; kill if PDP scroll depth drops &gt;10% relative</dd>
+    <dt>Expected lift</dt><dd>+10–18%</dd>
+    <dt>Confidence</dt><dd>80%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +8% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>buy_box_impression, retailer_click, where_to_buy_anchor_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Performance</span>exp-638590bdfc90 — Replace broken /cart route with a retailer purchase-recovery page <span class="priority-score">Priority 85</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Replace broken /cart route with a retailer purchase-recovery page" />
+  <p><strong>Affected surface:</strong> /cart · <a href="https://gingerpeople.com/cart">https://gingerpeople.com/cart</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because 'Cart URL did not load verifiable content' affecting 3–6% of sessions as cited in leak id 'cart_unverified' severity 3, leaving shoppers with no recovery path</p>
+  <p><strong>Primary change:</strong> Redirect /cart to a branded 'Find This Product' page listing top retailer links and a store-locator CTA instead of rendering a broken or empty cart template</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Retailer click-through rate from /cart redirect</dd>
+    <dt>Secondary KPI</dt><dd>Exit rate on /cart</dd>
+    <dt>Decision rule</dt><dd>Ship if retailer click-through rate from redirect lifts ≥+6% relative with p&lt;0.05; kill if exit rate on /cart rises &gt;8% relative</dd>
+    <dt>Expected lift</dt><dd>+6–14%</dd>
+    <dt>Confidence</dt><dd>75%</dd>
+    <dt>Effort</dt><dd>S · 2 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cart_page_view, cart_redirect_fired, retailer_click, store_locator_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Conversion</span>exp-7033f625dc39 — Surface inline retailer CTAs on every collection card <span class="priority-score">Priority 80</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Surface inline retailer CTAs on every collection card" />
+  <p><strong>Affected surface:</strong> Collection page · <a href="https://gingerpeople.com/collections/all">https://gingerpeople.com/collections/all</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because collection pages show 'SHOP NOW' and 'WHERE TO BUY' only in the hero with no per-product retailer action, as evidenced by buy_module atc_label null and retailer_links limited to global nav in the collection surface audit</p>
+  <p><strong>Primary change:</strong> Add a 'Buy Now' retailer dropdown button to each product card on the collection grid that expands to show top 2–3 retailer links on hover/tap</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Collection-to-retailer click rate</dd>
+    <dt>Secondary KPI</dt><dd>Collection page bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if collection-to-retailer click rate lifts ≥+7% relative with p&lt;0.05; kill if collection page bounce rate rises &gt;5% relative</dd>
+    <dt>Expected lift</dt><dd>+7–15%</dd>
+    <dt>Confidence</dt><dd>75%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +7% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>collection_card_retailer_dropdown_open, retailer_click, collection_page_view</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Acquisition</span>exp-cb19203170b8 — Add Product JSON-LD structured data to all PDPs <span class="priority-score">Priority 74</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Add Product JSON-LD structured data to all PDPs" />
+  <p><strong>Affected surface:</strong> PDP head/meta · <a href="https://gingerpeople.com/products/gin-gins-ginger-spice-drops">https://gingerpeople.com/products/gin-gins-ginger-spice-drops</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because 'Product JSON-LD coverage' is observed at 0% vs category median of 70%, meaning PDPs are invisible to Google Shopping rich results and organic product panels as cited in benchmark_gaps</p>
+  <p><strong>Primary change:</strong> Inject Product JSON-LD schema (name, image, description, offers with retailer URL) into the &lt;head&gt; of all PDP templates</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Organic PDP sessions from search</dd>
+    <dt>Secondary KPI</dt><dd>PDP retailer click-through rate</dd>
+    <dt>Decision rule</dt><dd>Ship if organic PDP sessions rise ≥+5% relative over test window; kill if PDP retailer click-through rate drops &gt;3% relative</dd>
+    <dt>Expected lift</dt><dd>+5–12%</dd>
+    <dt>Confidence</dt><dd>72%</dd>
+    <dt>Effort</dt><dd>S · 4 weeks · MDE +5% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>pdp_organic_session, json_ld_present, retailer_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Acquisition</span>exp-8cc6663e2173 — Pin a 'Where to Buy' sticky bar on all PDPs for mobile <span class="priority-score">Priority 71</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Pin a 'Where to Buy' sticky bar on all PDPs for mobile" />
+  <p><strong>Affected surface:</strong> PDP mobile · <a href="https://gingerpeople.com/products/ginger-rescue-chewable-ginger-tablets-strong">https://gingerpeople.com/products/ginger-rescue-chewable-ginger-tablets-strong</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves because all PDPs render the homepage shell for 20–40% of sessions due to geo gate and show no persistent buy action, as evidenced by buy_module atc_label null and has_quantity_selector false across all PDP surfaces in the audit</p>
+  <p><strong>Primary change:</strong> Add a fixed bottom bar on mobile PDP views containing a single 'Find in Store / Buy Online' CTA that links to the where-to-buy locator page</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Mobile PDP retailer click-through rate</dd>
+    <dt>Secondary KPI</dt><dd>Mobile PDP bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if mobile PDP retailer click-through rate lifts ≥+8% relative with p&lt;0.05; kill if mobile PDP bounce rate rises &gt;5% relative</dd>
+    <dt>Expected lift</dt><dd>+8–16%</dd>
+    <dt>Confidence</dt><dd>73%</dd>
+    <dt>Effort</dt><dd>S · 2 weeks · MDE +8% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>mobile_sticky_bar_impression, mobile_sticky_bar_click, retailer_click, where_to_buy_page_view</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">AOV</span>exp-7472d78ee2df — Embed homepage testimonials directly above the hero retailer CTA <span class="priority-score">Priority 63</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Embed homepage testimonials directly above the hero retailer CTA" />
+  <p><strong>Affected surface:</strong> Homepage hero · <a href="https://gingerpeople.com">https://gingerpeople.com</a></p>
+  <p><strong>Hypothesis:</strong> AOV rises because homepage testimonials such as 'I'm pregnant and these have been a life saver my whole pregnancy' exist on the page but are positioned below the fold, as evidenced by the homepage excerpt showing testimonials after multiple hero sections in the audit</p>
+  <p><strong>Primary change:</strong> Move the top-rated testimonial quote and star rating to appear directly above the primary 'SHOP NOW' hero CTA button</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Homepage-to-retailer click rate</dd>
+    <dt>Secondary KPI</dt><dd>Homepage bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if homepage-to-retailer click rate lifts ≥+6% relative with p&lt;0.05; kill if homepage bounce rate rises &gt;4% relative</dd>
+    <dt>Expected lift</dt><dd>+6–12%</dd>
+    <dt>Confidence</dt><dd>68%</dd>
+    <dt>Effort</dt><dd>S · 2 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>testimonial_impression, hero_cta_click, retailer_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">AOV</span>exp-8cac91302279 — Add a product-specific retailer CTA to every blog/recipe content page <span class="priority-score">Priority 55</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Add a product-specific retailer CTA to every blog/recipe content page" />
+  <p><strong>Affected surface:</strong> Blog / content pages · <a href="https://gingerpeople.com/blogs/news">https://gingerpeople.com/blogs/news</a></p>
+  <p><strong>Hypothesis:</strong> AOV rises because blog and recipe content pages show only global nav retailer links with no inline product recommendation or buy path, as evidenced by buy_module atc_label null and retailer_links limited to nav-level entries across all content surface audits</p>
+  <p><strong>Primary change:</strong> Insert a mid-article product recommendation card with product image, name, and 'Buy at [Retailer]' CTA button contextually matched to the article topic</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Content-page-to-retailer click rate</dd>
+    <dt>Secondary KPI</dt><dd>Content page exit rate</dd>
+    <dt>Decision rule</dt><dd>Ship if content-page-to-retailer click rate lifts ≥+5% relative with p&lt;0.05; kill if content page exit rate rises &gt;6% relative</dd>
+    <dt>Expected lift</dt><dd>+5–12%</dd>
+    <dt>Confidence</dt><dd>65%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +5% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>content_product_card_impression, content_product_card_click, retailer_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Retention</span>exp-a6a37b6c8b0b — Add an email capture with ginger-tips lead magnet on the where-to-buy page <span class="priority-score">Priority 47</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Add an email capture with ginger-tips lead magnet on the where-to-buy page" />
+  <p><strong>Affected surface:</strong> Where-to-buy page · <a href="https://gingerpeople.com/where-to-buy-the-ginger-people-products">https://gingerpeople.com/where-to-buy-the-ginger-people-products</a></p>
+  <p><strong>Hypothesis:</strong> Repeat purchase rate improves because the where-to-buy page has no email capture or re-engagement mechanism, as evidenced by buy_module showing only retailer_links with no subscription or retention touchpoint across the where-to-buy surface audit</p>
+  <p><strong>Primary change:</strong> Add an inline email opt-in form on the where-to-buy page offering a 'Ginger Wellness Guide' PDF in exchange for email, enabling post-visit re-engagement</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Email opt-in rate on where-to-buy page</dd>
+    <dt>Secondary KPI</dt><dd>Where-to-buy page retailer click rate</dd>
+    <dt>Decision rule</dt><dd>Ship if email opt-in rate reaches ≥+4% absolute with p&lt;0.05; kill if where-to-buy page retailer click rate drops &gt;5% relative</dd>
+    <dt>Expected lift</dt><dd>+4–10%</dd>
+    <dt>Confidence</dt><dd>63%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +4% absolute on primary KPI</dd>
+    <dt>Analytics events</dt><dd>email_optin_form_impression, email_optin_submit, retailer_click, where_to_buy_page_view</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Retention</span>exp-0333c53d7877 — Show a 'You may also like' product carousel on the where-to-buy page <span class="priority-score">Priority 38</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_08e2e34017895adf/screenshots/b2f64d78-home.png" alt="Evidence for Show a 'You may also like' product carousel on the where-to-buy page" />
+  <p><strong>Affected surface:</strong> Where-to-buy page · <a href="https://gingerpeople.com/where-to-buy-the-ginger-people-products">https://gingerpeople.com/where-to-buy-the-ginger-people-products</a></p>
+  <p><strong>Hypothesis:</strong> Repeat purchase rate improves because the where-to-buy page presents no cross-product discovery path, as evidenced by buy_module has_variant_picker false and no product recommendation elements visible in the where-to-buy surface audit</p>
+  <p><strong>Primary change:</strong> Add a horizontal scrolling product carousel above the retailer locator on the where-to-buy page, linking each card to its PDP with a secondary 'Learn More' CTA</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Where-to-buy page PDP click-through rate</dd>
+    <dt>Secondary KPI</dt><dd>Where-to-buy page session duration</dd>
+    <dt>Decision rule</dt><dd>Ship if PDP click-through rate from where-to-buy page lifts ≥+5% relative with p&lt;0.05; kill if session duration drops &gt;8% relative</dd>
+    <dt>Expected lift</dt><dd>+5–10%</dd>
+    <dt>Confidence</dt><dd>60%</dd>
+    <dt>Effort</dt><dd>M · 3 weeks · MDE +5% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>product_carousel_impression, product_carousel_click, pdp_view, retailer_click</dd>
+  </dl>
+</article>
+
+  <h2>Competitor analysis</h2>
+  <p>Three brands are positioned to capture the shopper The Ginger People loses at the geo gate or the retailer handoff.</p>
+  <table>
+    <thead><tr><th>Competitor</th><th>Domain</th><th>Positioning</th><th>What they make easier</th><th>The Ginger People edge</th><th>Pattern to adapt</th></tr></thead>
+    <tbody><tr><td>Chimes Ginger Chews</td><td>chimesginger.com</td><td>Flavored ginger chew variety with clean packaging and strong Amazon presence; targets the same nausea-relief and snacking occasion.</td><td>PDPs load without a geo gate; Amazon buy button is the primary CTA on every product page.</td><td>The Ginger People's &quot;World's #1 Selling&quot; claim and Ginger Rescue® brand recognition are stronger — Chimes has no equivalent wellness sub-brand.</td><td>Chimes wins on frictionless purchase path; The Ginger People wins on brand authority when the site actually renders.</td></tr>
+<tr><td>Reed's Ginger Beer / Reed's Inc.</td><td>reedsinc.com</td><td>Ginger-forward beverage brand with a wellness and craft-drink angle; competes for the ginger-as-remedy shopper.</td><td>Retailer locator is a top-nav primary action with zip-code lookup above the fold on product pages.</td><td>The Ginger People's candy and supplement range is broader; Ginger Soother and Fiji Ginger Juice have no Reed's equivalent.</td><td>Reed's shows exactly what a retailer-routed handoff should look like — locator as primary CTA, not a nav afterthought.</td></tr>
+<tr><td>Prince of Peace Ginger Candy</td><td>popus.com</td><td>Value-positioned ginger chew with heavy Amazon and Asian grocery distribution; targets price-sensitive buyers of the same SKU format.</td><td>No geo gate; product pages carry star ratings and review counts inline.</td><td>The Ginger People's &quot;Real Ginger. Real Benefits.&quot; positioning and the Ginger Rescue® wellness line command a premium that Prince of Peace cannot match.</td><td>Prince of Peace wins on review visibility at the product level — a gap The Ginger People can close by surfacing its existing testimonials on PDPs.</td></tr>
+<tr><td>Buderim Ginger</td><td>buderimginger.com</td><td>Australian-origin ginger brand with a provenance and purity story; overlaps directly on the &quot;real ginger&quot; and freshness messaging.</td><td>Region selector is a footer utility, not a full-page gate — shoppers reach product content immediately.</td><td>The Ginger People's Fiji Ginger Juice and bulk ingredients range gives it a broader SKU footprint and a B2B angle Buderim doesn't emphasize.</td><td>Buderim demonstrates that a multi-region brand can handle geo routing without blocking PDP content — the region selector doesn't have to be a gate.</td></tr></tbody>
+  </table>
+
+  <h2>Technical checks</h2>
+  <table>
+    <thead><tr><th>Check</th><th>Status</th><th>Detail</th></tr></thead>
+    <tbody><tr><td>SSL Certificate</td><td class="status-pass">Pass</td><td>HTTPS storefront loaded successfully.</td></tr>
+<tr><td>HTTPS Redirect</td><td class="status-warn">Warn</td><td>HTTP redirect was not verified in this pass.</td></tr>
+<tr><td>Sitemap</td><td class="status-warn">Warn</td><td>sitemap.xml not found or returned an error.</td></tr>
+<tr><td>Robots.txt</td><td class="status-pass">Pass</td><td>robots.txt responded successfully.</td></tr>
+<tr><td>Critical Pages Loading</td><td class="status-fail">Fail</td><td>Issues on: https://gingerpeople.com/collections/all, https://gingerpeople.com/cart.</td></tr>
+<tr><td>Meta Tags &amp; Social Previews</td><td class="status-pass">Pass</td><td>20/20 pages had title + meta description.</td></tr>
+<tr><td>Structured Data</td><td class="status-warn">Warn</td><td>No verified PDPs — Product JSON-LD not confirmed.</td></tr>
+<tr><td>Favicon</td><td class="status-pass">Pass</td><td>Favicon link detected on homepage.</td></tr>
+<tr><td>Mobile-Friendly</td><td class="status-warn">Warn</td><td>Mobile capture was not completed.</td></tr>
+<tr><td>Page Speed Mobile</td><td class="status-warn">Warn</td><td>No performance metrics captured.</td></tr>
+<tr><td>Page Speed Desktop</td><td class="status-warn">Warn</td><td>No desktop speed run performed.</td></tr>
+<tr><td>Broken Links</td><td class="status-fail">Fail</td><td>Broken/blocked: https://gingerpeople.com/collections/all, https://gingerpeople.com/cart, https://gingerpeople.com/checkout, https://gingerpeople.com/search, https://gingerpeople.com/pages/about, https://gingerpeople.com/pages/about-us, https://gingerpeople.com/blogs/news, /the-ginger-people-products/, /gin-gins/, /ginger-rescue-tablets-lozenges/, /ginger-rescue-ginger-shots/, /ginger-and-turmeric-juice/, /ginger-soother-gingerade/, /ginger-pantry-baking/, /ginger-pantry-cooking/, /sauces/, /specialty-deli/.</td></tr>
+<tr><td>Image Optimization</td><td class="status-fail">Fail</td><td>87% images missing alt text on homepage. Total page weight 4MB.</td></tr>
+<tr><td>Cookie/Privacy</td><td class="status-pass">Pass</td><td>Privacy policy link visible in footer.</td></tr>
+<tr><td>Checkout Reachable</td><td class="status-fail">Fail</td><td>Cart/checkout path was not reachable from crawl.</td></tr></tbody>
+  </table>
+</body>
+</html>

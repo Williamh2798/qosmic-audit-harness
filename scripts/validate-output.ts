@@ -29,7 +29,16 @@ export type ValidationResult = {
   warnings: string[];
 };
 
-export function validateReportOutput(report: string): ValidationResult {
+type ManifestForValidation = {
+  funnel_analytics?: {
+    leak_scores?: { severity: number; id: string; description: string }[];
+  };
+};
+
+export function validateReportOutput(
+  report: string,
+  manifest?: ManifestForValidation
+): ValidationResult {
   const errors: string[] = [];
   const warnings: string[] = [];
 
@@ -38,7 +47,7 @@ export function validateReportOutput(report: string): ValidationResult {
     errors.push("Missing ## Executive summary section");
   } else {
     const execBody =
-      report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Proposed experiments/i)[0] ?? "";
+      report.split(/##\s*Executive summary/i)[1]?.split(/##\s*Funnel diagnosis/i)[0] ?? "";
     const paragraphs = execBody.split(/\n\n+/).filter((p) => p.trim().length > 80);
     if (paragraphs.length < 2) {
       errors.push(`Executive summary needs 2–3 paragraphs of prose (found ${paragraphs.length})`);
@@ -46,6 +55,21 @@ export function validateReportOutput(report: string): ValidationResult {
     if (paragraphs.length > 3) {
       warnings.push(`Executive summary has ${paragraphs.length} paragraphs (brief asks 2–3)`);
     }
+  }
+
+  // --- Funnel diagnosis ---
+  if (!/##\s*Funnel diagnosis/i.test(report)) {
+    errors.push("Missing ## Funnel diagnosis section");
+  }
+
+  // --- Priority matrix ---
+  if (!/##\s*Experiment priority matrix/i.test(report)) {
+    errors.push("Missing ## Experiment priority matrix section");
+  }
+
+  // --- Analytics instrumentation ---
+  if (!/##\s*Analytics instrumentation/i.test(report)) {
+    warnings.push("Missing ## Analytics instrumentation section");
   }
 
   // --- Section 2: 10 experiments with all fields ---
@@ -67,9 +91,15 @@ export function validateReportOutput(report: string): ValidationResult {
     "Hypothesis:",
     "Primary change:",
     "Primary KPI:",
+    "Secondary KPI:",
     "Decision rule:",
     "Expected lift:",
     "Confidence:",
+    "Implementation effort:",
+    "Test duration:",
+    "Minimum detectable effect:",
+    "Priority score:",
+    "Analytics events:",
   ];
   const expBlocks = report.split(/###\s*exp-[a-f0-9]{12}/i).slice(1);
   for (let i = 0; i < Math.min(10, expBlocks.length); i++) {
@@ -83,6 +113,28 @@ export function validateReportOutput(report: string): ValidationResult {
   for (const p of pillars) {
     if (!new RegExp(`\\*\\*Pillar:\\*\\*\\s*${p}`, "i").test(report)) {
       errors.push(`No experiment with pillar: ${p}`);
+    }
+  }
+
+  // Lift-effort consistency
+  for (let i = 0; i < Math.min(10, expBlocks.length); i++) {
+    const block = expBlocks[i];
+    const effortMatch = block.match(/\*\*Implementation effort:\*\*\s*(S|M|L)/i);
+    const liftMatch = block.match(/\*\*Expected lift:\*\*\s*\+?(\d+)/i);
+    if (effortMatch?.[1] === "L" && liftMatch && parseInt(liftMatch[1], 10) > 18) {
+      warnings.push(`Experiment ${i + 1}: L effort with high lift (+${liftMatch[1]}%) — verify evidence`);
+    }
+  }
+
+  // Manifest leak coverage
+  if (manifest?.funnel_analytics?.leak_scores) {
+    const highSeverity = manifest.funnel_analytics.leak_scores.filter((l) => l.severity >= 4);
+    for (const leak of highSeverity) {
+      const keywords = leak.description.toLowerCase().split(/\s+/).filter((w) => w.length > 5).slice(0, 3);
+      const covered = keywords.some((kw) => report.toLowerCase().includes(kw));
+      if (!covered) {
+        warnings.push(`Severity-${leak.severity} leak may lack experiment: ${leak.description.slice(0, 60)}`);
+      }
     }
   }
 
@@ -120,7 +172,7 @@ export function validateReportOutput(report: string): ValidationResult {
   }
 
   // Structural eval (shared with npm run eval)
-  const structural = runStructuralEval(report);
+  const structural = runStructuralEval(report, undefined, manifest);
   for (const check of structural.filter((c) => !c.pass)) {
     errors.push(`Structural: ${check.name} — ${check.detail}`);
   }

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Home Page – Zen Rojas — Qosmic Audit</title>
+  <style id="qosmic-audit-css">:root {
+  --ink: #1a1a1a;
+  --muted: #555;
+  --border: #ddd;
+  --accent: #2563eb;
+  --pass: #15803d;
+  --warn: #b45309;
+  --fail: #b91c1c;
+  --card-bg: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 22pt;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 14pt;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.25em;
+}
+
+h3 {
+  font-size: 12pt;
+  margin-bottom: 0.35em;
+}
+
+p {
+  margin: 0 0 0.85em;
+}
+
+.cover {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  page-break-after: always;
+  padding: 2in 0 1in;
+}
+
+.cover .store-name {
+  font-size: 28pt;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.cover .thesis {
+  font-size: 14pt;
+  color: var(--muted);
+  max-width: 28em;
+  margin: 0.5em 0 1.5em;
+}
+
+.cover .meta {
+  font-size: 10pt;
+  color: var(--muted);
+}
+
+.score-badge {
+  display: inline-block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 11pt;
+  font-weight: 600;
+  padding: 0.35em 0.75em;
+  border-radius: 4px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  margin-top: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9.5pt;
+  margin: 0.75em 0 1.25em;
+  page-break-inside: auto;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.4em 0.55em;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #eef2f7;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+tr {
+  page-break-inside: avoid;
+}
+
+.status-pass { color: var(--pass); font-weight: 600; }
+.status-warn { color: var(--warn); font-weight: 600; }
+.status-fail { color: var(--fail); font-weight: 600; }
+
+.experiment-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1em;
+  margin: 1em 0;
+  background: var(--card-bg);
+  page-break-inside: avoid;
+}
+
+.experiment-card h3 {
+  margin-top: 0;
+}
+
+.pillar-badge {
+  display: inline-block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 8pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  background: var(--accent);
+  color: #fff;
+  margin-right: 0.5em;
+}
+
+.priority-score {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 9pt;
+  color: var(--muted);
+}
+
+.evidence-img {
+  max-width: 100%;
+  max-height: 280px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 0.75em 0;
+  display: block;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em 1.5em;
+  font-size: 9.5pt;
+  margin-top: 0.75em;
+}
+
+.grid-2 dt {
+  font-weight: 600;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: var(--muted);
+  margin: 0;
+}
+
+.grid-2 dd {
+  margin: 0 0 0.5em;
+}
+
+ul.events {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 10pt;
+  padding-left: 1.25em;
+}
+
+@media print {
+  body { font-size: 10pt; }
+  .cover { padding-top: 1.5in; }
+  a { color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+  <section class="cover">
+    <div class="store-name">Home Page – Zen Rojas</div>
+    <p class="thesis">conversion leaks need fixing</p>
+    <p class="meta">Qosmic CRO Audit · June 26, 2026</p>
+    <div class="score-badge">Funnel health 80/100 · Buy path 80%</div>
+  </section>
+
+  <h2>Executive summary</h2>
+  <p><strong>The store has product proof but structural gaps in the purchase path.</strong> Crawl artifacts show clear strengths in brand and catalog depth, but funnel analytics flagged multiple leaks affecting session conversion.</p>
+<p><strong>High-severity leaks cluster on key purchase surfaces</strong> — cart, PDP buy modules, and navigation handoffs need attention. Estimated session impact ranges from 3–25% depending on leak type.</p>
+<p><strong>Start with the highest-priority experiment</strong> from the priority matrix — lowest implementation effort with the highest confidence and lift potential.</p>
+
+  <h2>Funnel diagnosis</h2>
+  <p><strong>Funnel health score:</strong> 80/100 · <strong>Buy path completeness:</strong> 80%</p>
+  <table>
+    <thead><tr><th>Stage</th><th>Health</th><th>Gap</th><th>Est. session impact</th></tr></thead>
+    <tbody><tr><td>Products</td><td>Severity 3/5</td><td>Collection &quot;Products&quot; has sold-out tiles.</td><td>3–8%</td></tr>
+<tr><td>Organic Sleep Tea</td><td>Severity 2/5</td><td>Hero PDP missing Product JSON-LD structured data.</td><td>2–5%</td></tr></tbody>
+  </table>
+
+  <h2>Experiment priority matrix</h2>
+  <table>
+    <thead><tr><th>Rank</th><th>Experiment</th><th>Lift</th><th>Effort</th><th>Priority</th><th>Why now</th></tr></thead>
+    <tbody><tr><td>1</td><td>exp-fd26e17c45ab</td><td>+6–12%</td><td>S</td><td>65</td><td>Fix Products leak</td></tr>
+<tr><td>2</td><td>exp-cf85ad3c02ba</td><td>+6–12%</td><td>S</td><td>65</td><td>Fix Organic Sleep Tea leak</td></tr>
+<tr><td>3</td><td>exp-c0a436fd90d2</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve collection UX</td></tr>
+<tr><td>4</td><td>exp-766af97ccbcb</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve collection UX</td></tr>
+<tr><td>5</td><td>exp-887b67d48c1c</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve collection UX</td></tr>
+<tr><td>6</td><td>exp-c6fa88f7de72</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve category UX</td></tr>
+<tr><td>7</td><td>exp-5c3fc1105b03</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve pdp UX</td></tr>
+<tr><td>8</td><td>exp-3e6861e007fe</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve pdp UX</td></tr>
+<tr><td>9</td><td>exp-8f8ffcb98c5f</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve pdp UX</td></tr>
+<tr><td>10</td><td>exp-9034ef812217</td><td>+6–10%</td><td>S</td><td>56</td><td>Improve pdp UX</td></tr></tbody>
+  </table>
+
+  <h2>Analytics instrumentation</h2><p>Events to add before testing:</p><ul class="events"><li><code>buy_box_impression</code></li>
+<li><code>add_to_cart</code></li>
+<li><code>cta_click</code></li></ul>
+
+  <h2>Proposed experiments</h2>
+  <article class="experiment-card">
+  <h3><span class="pillar-badge">Conversion</span>exp-fd26e17c45ab — Fix Products leak <span class="priority-score">Priority 65</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/5b940095-collections-all.png" alt="Evidence for Fix Products leak" />
+  <p><strong>Affected surface:</strong> Products · <a href="https://zenrojas.com/collections/all">https://zenrojas.com/collections/all</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by addressing collection &quot;products&quot; has sold-out tiles. because crawl evidence shows severity 3 impact on ~3–8% of sessions.</p>
+  <p><strong>Primary change:</strong> Resolve: Collection &quot;Products&quot; has sold-out tiles.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves without hurting secondary KPI over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–12%</dd>
+    <dt>Confidence</dt><dd>72%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +8% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>conversion_event, surface_impression</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Conversion</span>exp-cf85ad3c02ba — Fix Organic Sleep Tea leak <span class="priority-score">Priority 65</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/a1ec8fc2-products-organicsleeptea.png" alt="Evidence for Fix Organic Sleep Tea leak" />
+  <p><strong>Affected surface:</strong> Organic Sleep Tea · <a href="https://zenrojas.com/products/organicsleeptea">https://zenrojas.com/products/organicsleeptea</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by addressing hero pdp missing product json-ld structured data. because crawl evidence shows severity 2 impact on ~2–5% of sessions.</p>
+  <p><strong>Primary change:</strong> Resolve: Hero PDP missing Product JSON-LD structured data.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Bounce rate</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves without hurting secondary KPI over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–12%</dd>
+    <dt>Confidence</dt><dd>72%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +8% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>conversion_event, surface_impression</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">AOV</span>exp-c0a436fd90d2 — Improve collection UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/5b940095-collections-all.png" alt="Evidence for Improve collection UX" />
+  <p><strong>Affected surface:</strong> collection · <a href="https://zenrojas.com/collections/all">https://zenrojas.com/collections/all</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the collection experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">AOV</span>exp-766af97ccbcb — Improve collection UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/61e96e8f-collections-teas.png" alt="Evidence for Improve collection UX" />
+  <p><strong>Affected surface:</strong> collection · <a href="https://zenrojas.com/collections/teas">https://zenrojas.com/collections/teas</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the collection experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Retention</span>exp-887b67d48c1c — Improve collection UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/265baf14-collections-teaware.png" alt="Evidence for Improve collection UX" />
+  <p><strong>Affected surface:</strong> collection · <a href="https://zenrojas.com/collections/teaware">https://zenrojas.com/collections/teaware</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the collection experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Retention</span>exp-c6fa88f7de72 — Improve category UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/2a119dc6-products.png" alt="Evidence for Improve category UX" />
+  <p><strong>Affected surface:</strong> category · <a href="https://zenrojas.com/products">https://zenrojas.com/products</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the category experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Acquisition</span>exp-5c3fc1105b03 — Improve pdp UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/a1ec8fc2-products-organicsleeptea.png" alt="Evidence for Improve pdp UX" />
+  <p><strong>Affected surface:</strong> pdp · <a href="https://zenrojas.com/products/organicsleeptea">https://zenrojas.com/products/organicsleeptea</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the pdp experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Average order value</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Acquisition</span>exp-3e6861e007fe — Improve pdp UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/91d6cb7e-products-bodyguardtea.png" alt="Evidence for Improve pdp UX" />
+  <p><strong>Affected surface:</strong> pdp · <a href="https://zenrojas.com/products/bodyguardtea">https://zenrojas.com/products/bodyguardtea</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the pdp experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Performance</span>exp-8f8ffcb98c5f — Improve pdp UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/64ae2696-products-premiumsenchagreentea.png" alt="Evidence for Improve pdp UX" />
+  <p><strong>Affected surface:</strong> pdp · <a href="https://zenrojas.com/products/premiumsenchagreentea">https://zenrojas.com/products/premiumsenchagreentea</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the pdp experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+<article class="experiment-card">
+  <h3><span class="pillar-badge">Performance</span>exp-9034ef812217 — Improve pdp UX <span class="priority-score">Priority 56</span></h3>
+  <img class="evidence-img" src="file:///Users/williamhenry/quosmic/audits/aud_aaf09ecf84633e41/screenshots/42a0aabc-products-heartburntea.png" alt="Evidence for Improve pdp UX" />
+  <p><strong>Affected surface:</strong> pdp · <a href="https://zenrojas.com/products/heartburntea">https://zenrojas.com/products/heartburntea</a></p>
+  <p><strong>Hypothesis:</strong> CVR improves by optimizing the pdp experience because crawl shows room for clearer purchase paths.</p>
+  <p><strong>Primary change:</strong> Add clearer CTA and purchase guidance on this surface.</p>
+  <dl class="grid-2">
+    <dt>Primary KPI</dt><dd>Conversion rate</dd>
+    <dt>Secondary KPI</dt><dd>Time on page</dd>
+    <dt>Decision rule</dt><dd>Ship if primary KPI improves at 95% confidence over 3 weeks.</dd>
+    <dt>Expected lift</dt><dd>+6–10%</dd>
+    <dt>Confidence</dt><dd>70%</dd>
+    <dt>Effort</dt><dd>S · 3 weeks · MDE +6% relative on primary KPI</dd>
+    <dt>Analytics events</dt><dd>cta_click</dd>
+  </dl>
+</article>
+
+  <h2>Competitor analysis</h2>
+  <p>Category competitors set a higher bar for purchase clarity and guided shopping.</p>
+  <table>
+    <thead><tr><th>Competitor</th><th>Domain</th><th>Positioning</th><th>What they make easier</th><th>Home Page – Zen Rojas edge</th><th>Pattern to adapt</th></tr></thead>
+    <tbody><tr><td>Harney &amp; Sons</td><td>harney.com</td><td>Premium tea DTC</td><td>Clear product taxonomy</td><td>Organic focus</td><td>Need-first homepage blocks</td></tr>
+<tr><td>Traditional Medicinals</td><td>traditionalmedicinals.com</td><td>Wellness tea leader</td><td>Benefit-led navigation</td><td>Veteran story</td><td>Health benefit filters</td></tr>
+<tr><td>Yogi Tea</td><td>yogiproducts.com</td><td>Mass wellness</td><td>Retailer + DTC paths</td><td>Ritual branding</td><td>Dual buy paths</td></tr></tbody>
+  </table>
+
+  <h2>Technical checks</h2>
+  <table>
+    <thead><tr><th>Check</th><th>Status</th><th>Detail</th></tr></thead>
+    <tbody><tr><td>SSL Certificate</td><td class="status-pass">Pass</td><td>HTTPS storefront loaded successfully.</td></tr>
+<tr><td>HTTPS Redirect</td><td class="status-pass">Pass</td><td>HTTP redirects to HTTPS.</td></tr>
+<tr><td>Sitemap</td><td class="status-pass">Pass</td><td>sitemap.xml responded successfully.</td></tr>
+<tr><td>Robots.txt</td><td class="status-pass">Pass</td><td>robots.txt responded successfully.</td></tr>
+<tr><td>Critical Pages Loading</td><td class="status-pass">Pass</td><td>Homepage, collections, and PDPs loaded.</td></tr>
+<tr><td>Meta Tags &amp; Social Previews</td><td class="status-pass">Pass</td><td>20/20 pages had title + meta description.</td></tr>
+<tr><td>Structured Data</td><td class="status-warn">Warn</td><td>No JSON-LD detected on captured pages.</td></tr>
+<tr><td>Favicon</td><td class="status-warn">Warn</td><td>Favicon not detected from captured evidence.</td></tr>
+<tr><td>Mobile-Friendly</td><td class="status-pass">Pass</td><td>Mobile viewport screenshot captured for homepage.</td></tr>
+<tr><td>Page Speed Mobile</td><td class="status-warn">Warn</td><td>No performance metrics captured.</td></tr>
+<tr><td>Page Speed Desktop</td><td class="status-warn">Warn</td><td>No desktop speed run performed.</td></tr>
+<tr><td>Broken Links</td><td class="status-pass">Pass</td><td>No broken internal links detected in homepage link check.</td></tr>
+<tr><td>Image Optimization</td><td class="status-fail">Fail</td><td>54% images missing alt text on homepage.</td></tr>
+<tr><td>Cookie/Privacy</td><td class="status-pass">Pass</td><td>Privacy policy link visible in footer.</td></tr>
+<tr><td>Checkout Reachable</td><td class="status-pass">Pass</td><td>Cart URL loaded without error.</td></tr></tbody>
+  </table>
+</body>
+</html>
